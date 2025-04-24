@@ -14,6 +14,7 @@ namespace ExamSys
         public Answer(string ans)
         {
             Ans = ans;
+            AnsId = NumOfIds++;
         }
         //public static bool operator ==(string a, Answer b)=> b.Ans == a;
         //public static bool operator !=(string a, Answer b)=>b.Ans != a;
